@@ -11,15 +11,16 @@ nav {
     display: none;
 }
 
-a {
+.logo{
+    display: inline-block;
     width: 68px;
     height: 64px;
 }
 
-.logo{
-    display: inline-block;
-}
-
 .navigation-menu {
     margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
 }
