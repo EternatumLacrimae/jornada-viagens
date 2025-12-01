@@ -3,8 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/favicon-light.png" media="(prefers-color-scheme: light)">
-    <link rel="shortcut icon" href="favicon-dark.png" media="(prefers-color-scheme: dark)">
+    <link
+      rel="icon"
+      href="/favicon-light.png"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="shortcut icon"
+      href="favicon-dark.png"
+      media="(prefers-color-scheme: dark)"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Jornada Viagens</title>
   </head>
@@ -12,7 +20,13 @@
     <header>
       <a class="logo" href="index.html" title="voltar para a página inicial">
         <img
-          src="img/bussula-jornada.png"
+          class="img-mobile"
+          src="img/bussola-jornada.png"
+          alt="Bussola do logo Jornada Viagens"
+        />
+        <img
+          class="img-desktop"
+          src="img/bussola-texto-jornada-light.png"
           alt="Bussola do logo Jornada Viagens"
         />
       </a>
@@ -20,12 +34,12 @@
         <label for="menu">
           <img src="img/menu-hamburguer.png" alt="Menu" />
         </label>
-        <input type="checkbox" id="menu" hidden>
+        <input type="checkbox" id="menu" hidden />
         <nav>
           <ul class="list-links">
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="pacotes.html">Pacotes de viagem</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a class="botoes" href="blog.html">Blog</a></li>
+            <li><a class="botoes" href="pacotes.html">Pacotes de viagem</a></li>
+            <li><a class="botoes" href="contato.html">Contato</a></li>
           </ul>
         </nav>
       </div>
