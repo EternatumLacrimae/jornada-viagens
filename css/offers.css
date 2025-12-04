@@ -31,11 +31,3 @@
     margin-top: 24px;
     display: inline-block;
 }
-
-.button {
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--background-secundary-color);
-    text-decoration: none;
-    background-color: var(--secundary-color);
-}
