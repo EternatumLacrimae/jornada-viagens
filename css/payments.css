@@ -1,0 +1,13 @@
+.text-content {
+    text-align: center;
+}
+
+.text-content h3 {
+    font-size: 28px;
+    font-weight: var(--title-weight);
+}
+
+.text-content p {
+    font-size: 20px;
+    font-weight: var(--text-weight);
+}
