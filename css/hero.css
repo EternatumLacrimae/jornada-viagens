@@ -28,6 +28,44 @@
   text-align: center;
 }
 
+/* PACOTES DE VIAGEM */
+.travel-packages .hero-img {
+  height: 460px;
+  background: url(../img/travel-packages-hero-mobile.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 88px;
+}
+
+.travel-packages .hero-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 65px 24px 20px;
+}
+
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+}
+
+.travel-packages .hero-content hr {
+  margin-left: 0px;
+}
+
+.travel-packages .hero-content p {
+  width: 312px;
+  font-size: 20px;
+  color: var(--text-secundary-color);
+  font-weight: var(--text-weight);
+}
+
+.travel-packages.bottom-hero .hero-img {
+  margin-bottom: 0;
+  background: url(../img/travel-packages-bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -49,6 +87,24 @@
   .bottom-hero {
     width: 100%;
     margin: 0;
+  }
+
+  /* Pacotes de viagem */
+  .travel-packages .hero-img {
+    height: 460px;
+    background: url(../img/travel-packages-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages .section-title.hero-content {
+    box-sizing: border-box;
+    padding: 120px;
+  }
+
+  .travel-packages.bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/travel-packages-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
   }
 }
 
