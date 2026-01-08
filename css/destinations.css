@@ -82,4 +82,8 @@
     display: flex;
     gap: 24px;
   }
+
+  .travel-packages hr {
+    margin-bottom: 64px;
+  }
 }
