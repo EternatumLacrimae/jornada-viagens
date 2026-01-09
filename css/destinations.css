@@ -37,6 +37,25 @@
   margin-bottom: 0;
 }
 
+/*Blog*/
+.figure-accommodation {
+  width: 100%;
+}
+
+.blog section {
+  margin-bottom: 0;
+}
+
+.blog.destinations.posts .item.hiroshima .img-item {
+  background: url(../img/hiroshima-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.blog.destinations.posts .item.kyoto .img-item {
+  background: url(../img/kyoto-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
