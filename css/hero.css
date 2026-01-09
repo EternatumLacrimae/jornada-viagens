@@ -36,24 +36,27 @@
   margin-bottom: 88px;
 }
 
-.travel-packages .hero-content {
+.travel-packages .hero-content, 
+.blog .hero-content {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 65px 24px 20px;
 }
 
-.travel-packages .hero-content h1 {
+.travel-packages .hero-content h1, 
+.blog .hero-content h1 {
   font-size: 48px;
   color: var(--text-secundary-color);
   font-weight: var(--title-weight);
 }
 
-.travel-packages .hero-content hr {
+.travel-packages .hero-content hr, 
+.blog .hero-content hr {
   margin-left: 0px;
 }
 
-.travel-packages .hero-content p {
+.travel-packages .hero-content p, .blog .hero-content p {
   width: 312px;
   font-size: 20px;
   color: var(--text-secundary-color);
@@ -64,6 +67,14 @@
   margin-bottom: 0;
   background: url(../img/travel-packages-bottom-hero-mobile.png) no-repeat;
   background-size: cover;
+}
+
+/*Blog*/
+.blog .hero-img {
+  height: 460px;
+  background: url(../img/blog-hero-mobile.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 88px;
 }
 
 @media screen and (min-width: 768px) {
